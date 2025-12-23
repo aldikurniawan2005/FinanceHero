@@ -1,0 +1,89 @@
+.fade-in {
+  animation: fadeIn 0.45s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ai-insight-card {
+  transition: all 0.3s ease;
+}
+
+.ai-insight-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================================================
+   GLOBAL AI UI THEME
+   Semua komponen AI Budget, AI Saving Plan, AI Smart Category
+   ========================================================= */
+
+.ai-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ai-card {
+  border-radius: 14px !important;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+
+.ai-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ai-desc {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.ai-button {
+  width: 100%;
+  margin-top: 10px;
+  height: 45px !important;
+  font-size: 16px !important;
+  border-radius: 10px !important;
+}
+
+.ai-result-card {
+  margin-top: 20px;
+  border-radius: 14px !important;
+  background: #f7f9ff;
+  padding: 20px;
+  border: 1px solid #e6ecff;
+}
+
+.ai-pre {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.ai-input {
+  height: 45px !important;
+  border-radius: 8px !important;
+  font-size: 15px;
+}
+

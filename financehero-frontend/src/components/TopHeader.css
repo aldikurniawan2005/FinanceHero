@@ -1,0 +1,59 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: linear-gradient(90deg, #001529, #004080);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.top-header-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.top-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.user-icon {
+  font-size: 18px;
+  color: #61dafb;
+}
+
+.username-text {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.top-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.top-header-right .user-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 20px;
+}
+
+.username-text {
+  font-weight: 500;
+}
